@@ -1,0 +1,56 @@
+/*  LIMPAR TELA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+#subheader {
+    width: 100%;
+    max-height: 35%;
+    background-color: darkblue;
+}
+
+h5 {
+    color: #FFFF;
+    margin-left: 75%;
+    padding: 3px;
+    font-size: 13px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    height: 90px;
+    background-color: brown;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #3a0505;
+    padding-left: 5px;
+    margin-left: 15px;
+    width: 100%;
+
+}
+
+.nav-link:hover>.sub {
+    color: azure;
+    display: block;
+
+}
+
+.nav-item {
+    margin-top: 10px;
+
+}
+
+.sub {
+    list-style: none;
+    display: none;
+}
